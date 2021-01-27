@@ -1,4 +1,4 @@
-/* 
+/*
 1.Posicionamiento
 2.Box-model
 3.Tipografía
@@ -168,9 +168,15 @@ main {
 
         /* Inicio estilos de tabla */
 
+        .main-tbl-cont {
+            width: 100%;
+            scroll-snap-align: start;  
+            
+        }
+        
         .main-currency-tbl {
-            width: 70%;
-            min-width: 235px;
+            width: 100%;
+            min-width: 288px;
             max-width: 500px;
             height: 300px;
             margin: 0 auto;
@@ -184,7 +190,7 @@ main {
             line-height: 2.3rem;
             color: var(--bitcoin-orange);
             text-align: center;
-                
+
         }
 
         .main-currency-tbl .tbl-container {
@@ -273,7 +279,7 @@ main {
 
     /* Fin Primera Seccion */
 
-    /* Inicio Segunda Seccion */ 
+    /* Inicio Segunda Seccion */
 
 
     .main-product-detail {
@@ -304,7 +310,7 @@ main {
         text-align: center;
 
     }
-    
+
     .product-detail-title h2 {
         margin-bottom: 20px;
         font-size: 2.4rem;
@@ -367,7 +373,7 @@ main {
             line-height: 1.8rem;
             color: var(--just-white);
         }
-        
+
         .card-body {
             font-size: 1.4rem;
             font-weight: 500;
@@ -435,10 +441,11 @@ main {
         /* Inicio Cartas SM */
 
         .sm-card-container {
+            scroll-snap-align: center;
             position: relative;
             width: 190px;
             height: 250px;
-            margin: 0 auto;
+            margin: 25px 20px 0;
             background-color: var(--just-white);
             border-radius: 8px;
             box-shadow: 0px 4px 8px 0px rgba(89, 73, 30, 0.16);
@@ -462,6 +469,7 @@ main {
         .sm-card-container h3 {
             padding: 30px 0 8px ;
             font-size: 1.4rem;
+            line-height: 1.8rem;
             color: black;
         }
 
@@ -490,7 +498,8 @@ main {
         .ca-btn {
             width: 150px;
             height: 48px;
-            padding: 12px 16px;
+            margin:16px 24px 20px;
+            padding: 12px 16px; 
             text-align: center;
             font-size: 1.4rem;
             line-height: 1.8rem;
@@ -541,3 +550,26 @@ footer {
     text-decoration: none;
 }
 /* Fin de estilos del footer */
+
+.slider-section {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: proximity;
+    gap: 40px;
+}
+
+.slider-section-sm {
+    height: 300px;
+    gap: 0;
+    justify-content: space-between;
+}
+.slider-section-sm::-webkit-scrollbar {
+    background-color: var(--soft-orange);
+    height: 3px;
+  }
+  .slider-section-sm::-webkit-scrollbar-thumb {
+    background-color: var(--bitcoin-orange);
+  }
