@@ -400,4 +400,116 @@ main {
 
     /* Fin de Tercera Seccion */
 
+    /* Inicio de Cuarta Seccion */
+
+    .plans {
+        width: 100%;
+        height: auto;
+    }
+
+    .plans-container {
+        width: 100%;
+        height: 410px;
+        margin: 64px 0;
+        text-align: center;
+    }
+
+    .plans-title {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 24px;
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+        font-weight: 700;
+        color: var(--warm-black);
+    }
+
+    .plans-body {
+        margin: 0 17px 50px;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        font-weight: 500;
+        color: #757575;
+    }
+
+    /* Inicio Cartas SM */
+
+    .sm-card-container {
+        position: relative;
+        width: 190px;
+        height: 250px;
+        margin: 0 auto;
+        background-color: var(--just-white);
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px 0px rgba(89, 73, 30, 0.16);
+    }
+
+    .recommended {
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        padding: 8px;
+        left: calc(50% - 100px/2);
+        top: -15px;
+        border-radius: 8px;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        font-weight: 700;
+        color: var(--just-white);
+        background-color: var(--bitcoin-orange);
+    }
+
+    .sm-card-container h3 {
+        padding: 30px 0 8px ;
+        font-size: 1.4rem;
+        color: black;
+    }
+
+    .price {
+        font-size: 5.2rem;
+        line-height: 6.2rem;
+        font-weight: bold;
+    }
+
+    .price span {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        font-weight: 300;
+        color: #363636;
+        vertical-align: 25px;
+    }
+
+    .sm-info {
+        margin: 16px;
+        font-size: 1.2rem;
+        line-height: 1.4rem ;
+        font-weight: 300;
+        color: #757575;
+    }
+
+    .ca-btn {
+        width: 150px;
+        height: 48px;
+        padding: 12px 16px;
+        text-align: center;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        font-weight: 700;
+        border-radius: 4px;
+        border: 2px solid var(--bitcoin-orange);
+        background-color: var(--off-white);
+    }
+
+    .ca-btn span {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        vertical-align: text-bottom;
+        background-image: url('/assets/icons/orange-right-arrow.svg');
+    }
+
+    /* Fin Cartas SM */
+
+    /* Fin de Cuarta Seccion */
+
 /* Fin estilos del main */
