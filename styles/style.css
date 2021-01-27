@@ -126,6 +126,7 @@ main {
 
     .main-exch-cont {
         width: 100%;
+        min-width: 320px;
         height: auto;
         padding-top: 80px;
         padding-bottom: 30px;
@@ -324,7 +325,7 @@ main {
         /* Inicio estilos tarjeta */
 
         .card-detail {
-            width: 100%;
+            width: 90%;
             min-width: 288px;
             max-width: 400px;
             height: 150px;
