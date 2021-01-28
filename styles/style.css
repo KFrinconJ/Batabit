@@ -556,10 +556,9 @@ main {
         .ca-btn span {
             display: inline-block;
             width: 20px;
-            height: 24px;
-            background-image: url('/assets/icons/orange-right-arrow.svg');
+            height: auto;
+            color: var(--bitcoin-orange);
         }
-
 
         /* Fin Cartas SM */
 
