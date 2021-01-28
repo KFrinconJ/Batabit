@@ -608,11 +608,13 @@ footer {
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
+    gap: 15px;
 }
 
 .slider-section-sm {
     width: 95%;
     height: 300px;
+    gap: 0;
     scroll-snap-type: x proximity;
     justify-content: space-between;
 }
