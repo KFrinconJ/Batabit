@@ -1,0 +1,46 @@
+
+.card-container {
+    width: 360px;
+    text-align: justify;
+}
+
+.flex-title {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-title-short {
+    justify-content: center ;
+    gap: 20px;
+}
+
+.card-title,.card-icon {
+    align-self: center;
+    flex-direction: row; 
+}
+
+.card-detail {
+    width: 90%;
+    margin: 15px auto;
+}
+
+.card-flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+
+.slider-section-sm {
+    width: 100%;
+
+}
+
+.slider-section {
+    overflow-x: hidden;
+    justify-content: space-evenly;
+    gap: 0;
+}
+
