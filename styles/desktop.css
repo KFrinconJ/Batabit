@@ -1,48 +1,47 @@
 header img {
-    width: 450px;
-    height: 72px;
-    margin-top: 60px;
-    align-self: center;
+	width: 450px;
+	height: 72px;
+	margin-top: 60px;
+	align-self: center;
 }
 
 .main-exch-cont {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .main-exch-cont-title {
-    order: -1;
-    min-width: 100%;
-    flex: 0 0 100%;
-    
+	order: -1;
+	min-width: 100%;
+	flex: 0 0 100%;
 }
 
 .main-exch-cont .backgroundimg {
-    width: 300px;
-    height: 300px;
-    background: url('../assets/img/Bitcoin.svg') center/cover no-repeat;
-    /* margin: 10px auto; */
+	width: 300px;
+	height: 300px;
+	background: url("../assets/img/Bitcoin.svg") center/cover no-repeat;
+	/* margin: 10px auto; */
 }
 
 .main-exch-cont .slider-section {
-    width: min-content;
-    /* margin: 10px auto; */
+	width: min-content;
+	/* margin: 10px auto; */
 }
 
 .slider-section .main-currency-tbl {
-    margin: 0;
+	margin: 0;
 }
 
 .slider-section .main-tbl-cont {
-    width: min-content;
+	width: min-content;
 }
 
 .bitcoin-img-text h2 {
-    padding-top: 65px;
-    font-size: 4rem;
-    font-weight: 700;
-    line-height: 2.6rem;
-    color: var(--just-white);
+	padding-top: 65px;
+	font-size: 4rem;
+	font-weight: 700;
+	line-height: 2.6rem;
+	color: var(--just-white);
 }
